@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mosaicbackground"
+    android:orientation="vertical"
+    android:padding="50dp" >
+
+    <LinearLayout
+        android:background="@drawable/redbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="107dp"
+            android:layout_weight="0.14"
+            android:src="@drawable/logopequeno" />
+        
+        <TextView
+            android:id="@+id/loginTextView"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.87"
+            android:text="TextView"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            style="@style/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bluebutton"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Cerrar sesión" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        
+        
+        <TextView
+            android:id="@+id/textTitleMainWindowTextView"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text=" Menú principal " />
+
+    </LinearLayout>
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp" >
+
+        <Button
+            android:id="@+id/clientesButton"
+            style="@style/ButtonText"
+            android:background="@drawable/redbutton"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:drawableTop="@drawable/addcustomer"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Clientes" />
+
+        <Button
+            android:id="@+id/operatorcrudButton"
+            style="@style/ButtonText"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/redbutton"
+            android:drawableTop="@drawable/operator"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Operarios" />
+
+        <Button
+            android:id="@+id/replacementButton"
+            style="@style/ButtonText"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/redbutton"
+            android:drawableTop="@drawable/replacement"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Repuestos" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp" >
+
+        <Button
+            android:id="@+id/checkSheetTemplateButon"
+            style="@style/ButtonText"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/redbutton"
+            android:drawableTop="@drawable/template"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Plantilla" />
+
+        <Button
+            android:id="@+id/queryRevisionButton"
+            style="@style/ButtonText"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/redbutton"
+            android:drawableTop="@drawable/query"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Consultas" />
+
+        <Button
+            android:id="@+id/newRevisionButton"
+            style="@style/ButtonText"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/redbutton"
+            android:drawableTop="@drawable/newcheck"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Revisión" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="63dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/footertitleTextVaraniniweb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="www.gabrielglez.com"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    
+    
+    
+</LinearLayout>

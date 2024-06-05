@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gabrielglez.cafeteria"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+     
+         
+        <activity
+            android:name="com.gabrielglez.cafeteria.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.MainWindowActivity"
+            android:label="@string/title_activity_main_window" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.CrudCustomersActivity"
+            android:label="@string/title_activity_crud_customers" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.CrudReplacementActivity"
+            android:label="@string/title_activity_crud_customers" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.NewCustomerDataForm"
+            android:label="@string/title_activity_new_customer_data_form" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.NewReplacementDataForm"
+            android:label="@string/title_activity_new_customer_data_form" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.CrudOperatorActivity"
+            android:label="@string/title_activity_crud_operator" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.NewOperatorDataForm"
+            android:label="@string/title_activity_new_operator_data_form" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.CrudTeplateActivity"
+            android:label="@string/title_activity_crud_teplate" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.CustomerToCheckActivity"
+            android:label="@string/title_activity_customer_to_check" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.CreateRevisionActivity"
+            android:label="@string/title_activity_create_revision" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.QueryRevisionActivity"
+            android:label="@string/title_activity_query_revision" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.QueryListRevisionCustomerActivity"
+            android:label="@string/title_activity_query_list_revision_customer" >
+        </activity>
+        <activity
+            android:name="com.gabrielglez.cafeteria.ShowCheckSheetActivity"
+            android:label="@string/title_activity_show_check_sheet" >
+        </activity>
+    </application>
+    
+       <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

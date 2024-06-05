@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/replacementnameNewrevision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/replacementobservationreplacementnameNewrevision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:text="TextView" />
+
+        <LinearLayout
+            android:tag="padre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkedCheckBoxReplacementnameNewrevision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				
+				android:tag="false"
+                android:text="Revisado" />
+            
+            <Button
+                android:id="@+id/observationButtonReplacementnameNewrevision"
+                style="@style/ButtonText"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/bluebuttondisabled"
+	            android:shadowColor="#A8A8A8"
+	            android:shadowDx="0"
+	            android:shadowDy="0"
+	            android:shadowRadius="5"
+	            android:textSize="15sp"
+                android:onClick="addObservationReplacement"
+                android:enabled="false"
+                android:text="Observación" >
+                
+            </Button>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- android:onClick="addLikeChecked" -->
